@@ -1,0 +1,42 @@
+body{
+  background-color: azure;
+}
+
+
+.user-cards-container {
+  display: grid;
+  grid-template-columns:repeat(3, 1fr);
+  gap: 10px; 
+
+
+}.user-card {
+  border: 1px solid #5b52da;
+  border-radius: 8px;
+  padding: 20px;
+  display: grid;
+  max-width:380px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  background: linear-gradient(to bottom, aqua 35%, #fff 65%);
+}
+.user-card:hover {
+  transform: scale(1.05); 
+}
+
+.title{
+  text-align: center;
+  color: #9145d8;
+}
+.name {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.email {
+  font-size: 16px;
+}
+
+.address {
+  font-size: 16px;
+}
